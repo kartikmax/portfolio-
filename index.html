@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Grid Layout Example</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <section class="container xs:flex xs:flex-col">
+      <div class="items xs:flex-1 flex items-center Blogs">
+        <div class="w-full">Version 0.1</div>
+      </div>
+      <div class="items xs:flex-1 flex Experience">
+        <div class="w-full transform rotate-[270deg] text-3xl">Experience</div>
+      </div>
+      <div class="items xs:flex-1 flex Education">
+        <div class="w-full transform rotate-[270deg] text-3xl">Education</div>
+      </div>
+      <div class="items xs:flex-1 Letsconnect">
+        <div class="w-full">Let's Connect</div>
+      </div>
+      <div class="items xs:flex-1 flex items-center Projects">
+        <div class="w-full text-xl">Projects</div>
+      </div>
+      <div class="items xs:flex-1 Name">
+        <div class="w-full flex flex-col gap-2">
+          <p class="text-2xl">Kartik Yadav</p>
+          <p>Web Developer</p>
+        </div>
+      </div>
+      <div class="items xs:flex-1 Resume">
+        <div class="text-xl w-full">Resume</div>
+      </div>
+      <div class="items xs:flex-1 flex items-center comingsoon">
+        <div class="w-full">Coming Soon...</div>
+      </div>
+    </section>
+  </body>
+</html>
